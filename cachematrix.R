@@ -19,8 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Write a short comment describing this function
 ##cacheSolve computes the inverse of the spetial matrix created, and let the program
-##veify it the inverse has been already calculated or if it is stil needs computing
-
+##verify if the inverse has been already calculated or if it is stil needs computing
 cacheSolve <- function(x, ...) {
   rsl<-x$getreverse()
   if(!is.null(rls)){
